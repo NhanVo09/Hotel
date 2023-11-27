@@ -33,7 +33,7 @@
 											
                                             <th>Tiền phòng</th>
 											<th>Tiền giường</th>
-											<th>Tièn bữa ăn </th>
+											<th>Tiền bữa ăn </th>
 											<th>Tổng cộng</th>
 											<th>In hóa đơn</th>
                                             

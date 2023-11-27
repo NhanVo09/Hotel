@@ -293,7 +293,7 @@ tr:hover .cut { opacity: 1; }
 						<td><span ><?php echo $days; ?> </span></td>
 						<td><span data-prefix></span><span ><?php  echo $type_of_room*1000 ;?></span>VND</td>
 						<td><span ><?php echo $nroom;?> </span></td>
-						<td><span data-prefix>$</span><span><?php echo $ttot*1000 ; ?></span>VND</td>
+						<td><span data-prefix></span><span><?php echo $ttot*1000 ; ?></span>VND</td>
 					</tr>
 					<tr>
 						<td><span ><?php echo $bed; ?>  Bed </span></td>
