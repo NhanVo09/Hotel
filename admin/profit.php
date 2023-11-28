@@ -28,8 +28,8 @@
 					$tot = 0;
 					while($row = mysqli_fetch_array($result))
 					{
-					 $chart_data .= "{ date:'".$row["cout"]."', profit:".$row["fintot"] *10/100 ."}, ";
-					 $tot = $tot + $row["fintot"] *10/100;
+					 $chart_data .= "{ date:'".$row["cout"]."', profit:".$row["fintot"] *1000 ."}, ";
+					 $tot = $tot + $row["fintot"] *1000;
 					}
 					$chart_data = substr($chart_data, 0, -2);
 				
